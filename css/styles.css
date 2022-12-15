@@ -8,7 +8,31 @@
 }
 
 .webstudio {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
 
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #2196F3;
+}
+
+.studio {
+font-family: 'Oleo Script' cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: 0.03em;
+
+color: #000000;
 }
 
 .line {
