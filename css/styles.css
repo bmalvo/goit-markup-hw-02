@@ -1,0 +1,39 @@
+.technocrack-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+.technocrack-caption-1 {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 576px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.technocrack-caption-2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 239px;
+    top: 616px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
