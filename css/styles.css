@@ -154,6 +154,7 @@ top: 174px;
 border-color: #F5F4FA;
 background: #F5F4FA;
 border-radius: 4px;
+cursor: pointer;
 }
 
 .pages-span {
@@ -184,6 +185,7 @@ color: #212121;
     border-color: #F5F4FA;
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .aplication-span {
@@ -215,6 +217,7 @@ color: #212121;
     border-color: #F5F4FA;
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .design-span {
@@ -247,6 +250,7 @@ color: #212121;
     border-color:#F5F4FA;
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 .marketing-span {
     /* position: absolute; */
@@ -334,6 +338,7 @@ line-height: 24px;
 
 letter-spacing: 0.03em;
 text-decoration-line: underline;
+
 
 color: rgba(255, 255, 255, 0.6);
 } 
@@ -848,4 +853,11 @@ letter-spacing: 0.02em;
 
 color: #757575;
 text-decoration: none;
+}
+.mail:hover, .tel:hover, .tel2:hover {
+    color: #2196F3;
+}
+
+.info:hover, a:hover, button:hover {
+    color: chartreuse;
 }
