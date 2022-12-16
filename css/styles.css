@@ -625,3 +625,54 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
+.inspiration {
+    box-sizing: border-box;
+
+position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 696px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.inspiration-cap1 {
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 29px;
+top: 296px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+
+.inspiration-cap2 {
+    position: absolute;
+width: 322px;
+height: 30px;
+left: 29px;
+top: 336px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
