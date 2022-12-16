@@ -1,3 +1,7 @@
+body {
+    display: block;
+}
+
 .top-line {
     position: absolute;
     width: 1600px;
@@ -264,6 +268,95 @@ color: #212121;
     color: #212121;
     
 }
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    
+    background: #2F303A;
+}
+
+.webstudio-footer {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 1688px;
+text-decoration: none;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.adress {
+    position: absolute;
+width: 247px;
+height: 21px;
+left: 215px;
+top: 1739px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+.mail {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 1769px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px; 
+/* /* or 171% */
+
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.6);
+} 
+
+.tel {
+ position: absolute; 
+ width: 231px; 
+height: 21px;
+left: 215px;
+top: 1799px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px; 
+/* or 171% */
+/* display: block; */
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6); 
+}
+
 .studio {
 font-family: 'Oleo Script', cursive;
 font-style: normal;
@@ -297,10 +390,11 @@ color: #000000;
 
 .technocrack-caption-1 {
     position: absolute;
+    display: inline;
     width: 322px;
     height: 36px;
-    left: 239px;
-    top: 576px;
+    left: 29px;
+    top: 296px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -313,8 +407,8 @@ color: #000000;
     position: absolute;
     width: 322px;
     height: 30px;
-    left: 239px;
-    top: 616px;
+    left: 29px;
+    top: 336px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -322,4 +416,8 @@ color: #000000;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+ul {
+    list-style: none;
 }
